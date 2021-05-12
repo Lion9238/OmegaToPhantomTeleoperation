@@ -1,0 +1,32 @@
+﻿Build started 2020-12-29 오후 11:11:39.
+     1>Project "C:\Users\IRiS\Desktop\omegaToPhantom_Teleoperation Program\Teleoperation_System\Teleoperation_System\Teleoperation_System.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Teleoperation_System.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../omega_lib/include /IC:\OpenHaptics\Academic\3.2\include /IC:\OpenHaptics\Academic\3.2\utilities\include /I.\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt KTBioLabLib.cpp omega_to_phantom_teleoperation.cpp
+         KTBioLabLib.cpp
+     1>c:\users\iris\desktop\omegatophantom_teleoperation program\teleoperation_system\teleoperation_system\ktbiolablib.cpp(599): warning C4305: '=' : truncation from 'int' to 'bool'
+     1>c:\users\iris\desktop\omegatophantom_teleoperation program\teleoperation_system\teleoperation_system\ktbiolablib.cpp(1517): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\iris\desktop\omegatophantom_teleoperation program\teleoperation_system\teleoperation_system\ktbiolablib.cpp(1526): warning C4806: '==' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+         omega_to_phantom_teleoperation.cpp
+     1>c:\users\iris\desktop\omegatophantom_teleoperation program\teleoperation_system\teleoperation_system\teleoperation_algo.h(58): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\iris\desktop\omegatophantom_teleoperation program\teleoperation_system\teleoperation_system\teleoperation_algo.h(151): warning C4101: 'slv_ForceTorque' : unreferenced local variable
+     1>c:\users\iris\desktop\omegatophantom_teleoperation program\teleoperation_system\teleoperation_system\teleoperation_algo.h(152): warning C4101: 'slv_energy' : unreferenced local variable
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\IRiS\Desktop\omegaToPhantom_Teleoperation Program\Teleoperation_System\Debug\Teleoperation_System.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../omega_lib/lib /LIBPATH:C:\OpenHaptics\Academic\3.2\lib\Win32\DebugAcademicEdition /LIBPATH:C:\OpenHaptics\Academic\3.2\utilities\lib\Win32\DebugAcademicEdition /LIBPATH:C:\OpenHaptics\Academic\3.2\lib\Win32 drdms.lib hd.lib hdu.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Teleoperation_System.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\IRiS\Desktop\omegaToPhantom_Teleoperation Program\Teleoperation_System\Debug\Teleoperation_System.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"C:\Users\IRiS\Desktop\omegaToPhantom_Teleoperation Program\Teleoperation_System\Debug\Teleoperation_System.lib" /MACHINE:X86 Debug\KTBioLabLib.obj
+         Debug\OmegaToPhantomDimension.obj
+         Debug\omega_to_phantom_teleoperation.obj
+     1>KTBioLabLib.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>hdu.lib(hduError.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduError.obj)' or at 'C:\Users\IRiS\Desktop\omegaToPhantom_Teleoperation Program\Teleoperation_System\Debug\vc100.pdb'; linking object as if no debug info
+         Teleoperation_System.vcxproj -> C:\Users\IRiS\Desktop\omegaToPhantom_Teleoperation Program\Teleoperation_System\Debug\Teleoperation_System.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\IRiS\Desktop\omegaToPhantom_Teleoperation Program\Teleoperation_System\Debug\Teleoperation_System.exe;#1" /manifest Debug\Teleoperation_System.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Teleoperation_System.unsuccessfulbuild".
+         Touching "Debug\Teleoperation_System.lastbuildstate".
+     1>Done Building Project "C:\Users\IRiS\Desktop\omegaToPhantom_Teleoperation Program\Teleoperation_System\Teleoperation_System\Teleoperation_System.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.42

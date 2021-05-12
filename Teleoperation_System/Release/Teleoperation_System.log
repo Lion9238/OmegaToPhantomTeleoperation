@@ -1,0 +1,20 @@
+﻿Build started 2020-08-15 오후 8:51:10.
+     1>Project "C:\Users\IRiS\Desktop\omegaToPhantom_Teleoperation Program\Teleoperation_System\Teleoperation_System\Teleoperation_System.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\IRiS\Desktop\omegaToPhantom_Teleoperation Program\Teleoperation_System\Release\".
+       InitializeBuildStatus:
+         Creating "Release\Teleoperation_System.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt KTBioLabLib.cpp OmegaToPhantomDimension.cpp omega_to_phantom_teleoperation.cpp
+         KTBioLabLib.cpp
+     1>KTBioLabLib.cpp(599): warning C4305: '=' : truncation from 'int' to 'bool'
+     1>KTBioLabLib.cpp(1314): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>KTBioLabLib.cpp(1323): warning C4806: '==' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+         OmegaToPhantomDimension.cpp
+         omega_to_phantom_teleoperation.cpp
+     1>c:\users\iris\desktop\omegatophantom_teleoperation program\teleoperation_system\teleoperation_system\teleoperation_algo.h(21): fatal error C1083: Cannot open include file: 'HD/hd.h': No such file or directory
+     1>Done Building Project "C:\Users\IRiS\Desktop\omegaToPhantom_Teleoperation Program\Teleoperation_System\Teleoperation_System\Teleoperation_System.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.44
